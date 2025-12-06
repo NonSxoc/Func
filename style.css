@@ -1,0 +1,20 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x400?text=Delicious+Food+Background') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+}
+
+.recipe-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
